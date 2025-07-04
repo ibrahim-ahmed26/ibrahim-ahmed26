@@ -133,10 +133,13 @@ const ibrahim = {
 ## 🌟 Featured Projects
 
 <div align="center">
-  <a href="https://github.com/ibrahim-ahmed26/project1">
+  <a href="https://github.com/ibrahim-ahmed26/Movie-PopCorn">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=project1&theme=tokyonight" />
   </a>
-  <a href="https://github.com/ibrahim-ahmed26/project2">
+  <a href="https://github.com/ibrahim-ahmed26/WorldWize-Vite">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=project2&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/ibrahim-ahmed26/Atomic-Blog">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=project2&theme=tokyonight" />
   </a>
 </div>
