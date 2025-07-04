@@ -134,13 +134,13 @@ const ibrahim = {
 
 <div align="center">
   <a href="https://github.com/ibrahim-ahmed26/Movie-PopCorn">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=project1&theme=tokyonight" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=Movie-PopCorn&theme=tokyonight" />
   </a>
   <a href="https://github.com/ibrahim-ahmed26/WorldWize-Vite">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=project2&theme=tokyonight" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=WorldWize-Vite&theme=tokyonight" />
   </a>
   <a href="https://github.com/ibrahim-ahmed26/Atomic-Blog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=project2&theme=tokyonight" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=Atomic-Blog&theme=tokyonight" />
   </a>
 </div>
 
