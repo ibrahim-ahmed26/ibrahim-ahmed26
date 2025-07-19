@@ -225,8 +225,9 @@ const ibrahim = {
 
 ### 🌍 WorldWize - Travel Tracking App  
 <a href="https://github.com/ibrahim-ahmed26/WorldWize-Vite">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=WorldWise-Vite&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=WorldWize-Vite&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
 </a>
+
 
 **Features:** Interactive maps, city tracking, travel logs  
 **Tech Stack:** React, Vite, Context API, CSS Modules
