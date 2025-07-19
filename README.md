@@ -28,13 +28,13 @@ const ibrahim = {
     technologies: {
         frontEnd: {
             js: ["React", "JavaScript ES6+", "Vanilla JavaScript"],
-            css: ["Tailwind CSS", "Sass", "Bootstrap", "CSS3"],
+            css: ["Tailwind CSS", "Sass", "CSS3"],
             ui: ["Figma", "Responsive Design", "Modern UI/UX"]
         },
-        databases: ["MongoDB", "MySQL"],
+        dataHandling: ["REST APIs", "JSON", "Fetch API", "Local Storage"],
         tools: ["Git", "VS Code", "npm", "Webpack", "Vite"],
         deployment: ["Vercel", "Netlify", "GitHub Pages"],
-        misc: ["REST APIs", "Git Flow", "Responsive Design"]
+        misc: ["Responsive Design", "CSS Animations", "Modern JavaScript"]
     },
     currentFocus: "Building responsive and interactive web applications with React",
     funFact: "I debug with console.log() and I'm not ashamed! 😄",
@@ -86,10 +86,6 @@ const ibrahim = {
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
-      <br><strong>Bootstrap</strong>
-    </td>
-    <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" alt="Material-UI" />
       <br><strong>Material-UI</strong>
     </td>
@@ -108,6 +104,10 @@ const ibrahim = {
     <td align="center" width="96">
       <img src="https://img.shields.io/badge/UI/UX-Design-FF6B6B?style=for-the-badge&logo=figma&logoColor=white" width="48" height="48" alt="UI/UX" />
       <br><strong>UI/UX Design</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.shields.io/badge/CSS-Animation-9D4EDD?style=for-the-badge&logo=css3&logoColor=white" width="48" height="48" alt="CSS Animation" />
+      <br><strong>CSS Animation</strong>
     </td>
   </tr>
 </table>
@@ -142,25 +142,9 @@ const ibrahim = {
   </tr>
 </table>
 
-### 🗄️ Database & Backend Tools
+### 🔌 API & Data Integration
 <table>
   <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-      <br><strong>MongoDB</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
-      <br><strong>MySQL</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" alt="Firebase" />
-      <br><strong>Firebase</strong>
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
-      <br><strong>Postman</strong>
-    </td>
     <td align="center" width="96">
       <img src="https://img.shields.io/badge/REST-APIs-4CAF50?style=for-the-badge&logo=api&logoColor=white" width="48" height="48" alt="REST APIs" />
       <br><strong>REST APIs</strong>
@@ -168,6 +152,22 @@ const ibrahim = {
     <td align="center" width="96">
       <img src="https://img.shields.io/badge/JSON-Data-FF9800?style=for-the-badge&logo=json&logoColor=white" width="48" height="48" alt="JSON" />
       <br><strong>JSON</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.shields.io/badge/Fetch-API-2196F3?style=for-the-badge&logo=javascript&logoColor=white" width="48" height="48" alt="Fetch API" />
+      <br><strong>Fetch API</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.shields.io/badge/Async-Await-E91E63?style=for-the-badge&logo=javascript&logoColor=white" width="48" height="48" alt="Async/Await" />
+      <br><strong>Async/Await</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.shields.io/badge/AJAX-Integration-673AB7?style=for-the-badge&logo=javascript&logoColor=white" width="48" height="48" alt="AJAX" />
+      <br><strong>AJAX</strong>
+    </td>
+    <td align="center" width="96">
+      <img src="https://img.shields.io/badge/Local-Storage-795548?style=for-the-badge&logo=html5&logoColor=white" width="48" height="48" alt="Local Storage" />
+      <br><strong>Local Storage</strong>
     </td>
   </tr>
 </table>
