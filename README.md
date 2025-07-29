@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+there!+I'm+Ibrahim+Ahmed+%F0%9F%91%8B;Frontend+Developer+%7C+React+Enthusiast;Creating+Clean+Responsive+Web+Designs!;Welcome+to+my+GitHub+Universe+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+there!+I'm+Ibrahim+Ahmed+%F0%9F%91%8B;Frontend+Developer+%7C+React+Enthusiast;Creating+Clean+Responsive+Web+Designs!;Welcome+to+my+GitHub+Universe+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=38BDF8&height=120&section=header&text=Welcome%20to%20My%20Profile!&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
@@ -87,7 +87,7 @@ const ibrahim = {
 <div align="center">
 
 ### 🎬 Movie PopCorn - React Movie Database
-<a href="https://github.com/ibrahim-ahmed26/Movie-PopCorn">
+<a href="https://github.com/ibrahim-ahmed26/Movie-PopCorn" class="project-card" style="--delay: 0s;">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=Movie-PopCorn&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
 </a>
 
@@ -97,8 +97,8 @@ const ibrahim = {
 ---
 
 ### 🌍 WorldWize - Travel Tracking App
-<a href="https://github.com/ibrahim-ahmed26/WorldWize-Vite">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=WorldWize-Vite&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
+<a href="https://github.com/ibrahim-ahmed26/WorldWize-Vite" class="project-card" style="--delay: 0.2s;">
+  <img src="https://images.unsplash.com/photo-1526778548025-fa2f539b4196?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="WorldWize Travel Map" class="worldwize-img"/>
 </a>
 
 **Features:** Interactive maps, city tracking, travel logs  
@@ -107,7 +107,7 @@ const ibrahim = {
 ---
 
 ### ⚛️ Atomic Blog - Modern Blog Platform
-<a href="https://github.com/ibrahim-ahmed26/Atomic-Blog">
+<a href="https://github.com/ibrahim-ahmed26/Atomic-Blog" class="project-card" style="--delay: 0.4s;">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=Atomic-Blog&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
 </a>
 
@@ -117,11 +117,37 @@ const ibrahim = {
 </div>
 
 <style>
-  div[align="center"] > a > img {
-    transition: transform 0.3s ease-in-out;
+  .project-card {
+    display: inline-block;
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: var(--delay);
   }
-  div[align="center"] > a > img:hover {
-    transform: translateY(-5px);
+  .project-card img {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  .project-card img:hover {
+    transform: scale(1.05) rotate(3deg);
+    filter: brightness(1.1);
+  }
+  img.worldwize-img {
+    width: 400px;
+    animation: pulse 2s infinite ease-in-out;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  h2 {
+    animation: fadeIn 1s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
   }
 </style>
 
@@ -198,13 +224,3 @@ graph TD
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling&width=100%"/>
 </div>
-
-<style>
-  h2 {
-    animation: fadeIn 1s ease-in-out;
-  }
-  @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(10px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-</style>
