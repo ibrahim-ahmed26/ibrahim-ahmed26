@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=30&duration=4000&pause=2000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+there!+I'm+Ibrahim+Ahmed+%F0%9F%91%8B;Frontend+Developer+%7C+React+Enthusiast;Creating+Clean+Responsive+Web+Designs!;Welcome+to+my+GitHub+Universe+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi+there!+I'm+Ibrahim+Ahmed+%F0%9F%91%8B;Frontend+Developer+%7C+React+Enthusiast;Creating+Clean+Responsive+Web+Designs!;Welcome+to+my+GitHub+Universe+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=38BDF8&height=120&section=header&text=Welcome%20to%20My%20Profile!&fontSize=30&fontColor=ffffff&animation=twinkling&fontAlignY=40"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=38BDF8&height=120&section=header&text=Welcome%20to%20My%20Profile!&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=ibrahim-ahmed26&style=for-the-badge&color=0891b2&labelColor=1c1917" />
@@ -47,8 +47,17 @@ const ibrahim = {
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,html,css,tailwind,sass,vite,figma,git,github,vscode,npm,webpack" />
+  <img src="https://skillicons.dev/icons?i=js,react,html,css,tailwind,sass,vite,figma,git,github,vscode,npm,webpack&theme=light" />
 </div>
+
+<style>
+  img[src*="skillicons.dev"] {
+    transition: transform 0.3s ease-in-out;
+  }
+  img[src*="skillicons.dev"]:hover {
+    transform: scale(1.1);
+  }
+</style>
 
 ---
 
@@ -89,7 +98,7 @@ const ibrahim = {
 
 ### 🌍 WorldWize - Travel Tracking App
 <a href="https://github.com/ibrahim-ahmed26/WorldWize-Vite">
-  <img src="[https://github-readme-stats.vercel.app/api/pin/](https://github.com/ibrahim-ahmed26/WorldWize-Vite/edit/main/README.md)?username=ibrahim-ahmed26&repo=WorldWize-Vite&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahim-ahmed26&repo=WorldWize-Vite&theme=tokyonight&hide_border=true&bg_color=1a1b27" />
 </a>
 
 **Features:** Interactive maps, city tracking, travel logs  
@@ -106,6 +115,15 @@ const ibrahim = {
 **Tech Stack:** React, Context API, Local Storage, CSS3
 
 </div>
+
+<style>
+  div[align="center"] > a > img {
+    transition: transform 0.3s ease-in-out;
+  }
+  div[align="center"] > a > img:hover {
+    transform: translateY(-5px);
+  }
+</style>
 
 ---
 
@@ -128,6 +146,21 @@ graph TD
     D --> K[Responsive Design]
     D --> L[User Experience]
     D --> M[Modern UI]
+
+    style A fill:#38BDF8,stroke:#1a1b27,stroke-width:2px,color:#ffffff
+    style B fill:#1a1b27,stroke:#38BDF8,stroke-width:2px,color:#38BDF8
+    style C fill:#1a1b27,stroke:#38BDF8,stroke-width:2px,color:#38BDF8
+    style D fill:#1a1b27,stroke:#38BDF8,stroke-width:2px,color:#38BDF8
+    style E fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style F fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style G fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style H fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style I fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style J fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style K fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style L fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    style M fill:#1a1b27,stroke:#5bcdec,stroke-width:1px,color:#5bcdec
+    linkStyle default stroke:#38d9a9,stroke-width:2px,transition:0.3s
 ```
 
 ## 🙋 Connect & Collaborate
@@ -151,8 +184,27 @@ graph TD
 
 </div>
 
+<style>
+  div[align="center"] > a > img[src*="shields.io"] {
+    transition: transform 0.3s ease-in-out;
+  }
+  div[align="center"] > a > img[src*="shields.io"]:hover {
+    transform: scale(1.1);
+  }
+</style>
+
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&width=100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling&width=100%"/>
 </div>
+
+<style>
+  h2 {
+    animation: fadeIn 1s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+</style>
