@@ -210,15 +210,6 @@ graph TD
 
 </div>
 
-<style>
-  div[align="center"] > a > img[src*="shields.io"] {
-    transition: transform 0.3s ease-in-out;
-  }
-  div[align="center"] > a > img[src*="shields.io"]:hover {
-    transform: scale(1.1);
-  }
-</style>
-
 ---
 
 <div align="center">
