@@ -79,7 +79,6 @@ console.log("Welcome to my coding journey! 🚀");
   <img src="https://github.com/user-attachments/assets/20b3e1ad-6cd3-4e28-9180-8b2525d70d6d" width="50">
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 ---
 
